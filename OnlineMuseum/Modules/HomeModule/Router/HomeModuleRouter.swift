@@ -18,7 +18,7 @@ class HomeModuleRouter {
     // MARK: Static methods
 
     static func setupModule() -> HomeModuleViewController {
-        let viewController = UIStoryboard.loadViewController() as HomeModuleViewController
+        let viewController = HomeModuleViewController()
         let presenter = HomeModulePresenter()
         let router = HomeModuleRouter()
         let interactor = HomeModuleInteractor()

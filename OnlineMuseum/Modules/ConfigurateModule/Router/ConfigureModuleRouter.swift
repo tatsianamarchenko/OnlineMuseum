@@ -18,7 +18,7 @@ class ConfigureModuleRouter {
     // MARK: Static methods
 
     static func setupModule() -> ConfigureModuleViewController {
-        let viewController = UIStoryboard.loadViewController() as ConfigureModuleViewController
+        let viewController = ConfigureModuleViewController()
         let presenter = ConfigureModulePresenter()
         let router = ConfigureModuleRouter()
         let interactor = ConfigureModuleInteractor()

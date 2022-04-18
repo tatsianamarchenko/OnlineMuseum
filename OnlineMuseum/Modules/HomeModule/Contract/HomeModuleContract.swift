@@ -8,22 +8,22 @@
 
 import Foundation
 
-protocol HomeModuleView: BaseView {
+protocol HomeModuleView {
     // TODO: Declare view methods
 }
 
-protocol HomeModulePresentation: class {
+protocol HomeModulePresentation {
     // TODO: Declare presentation methods
 }
 
-protocol HomeModuleUseCase: class {
+protocol HomeModuleUseCase {
     // TODO: Declare use case methods
 }
 
-protocol HomeModuleInteractorOutput: class {
+protocol HomeModuleInteractorOutput {
     // TODO: Declare interactor output methods
 }
 
-protocol HomeModuleWireframe: class {
+protocol HomeModuleWireframe {
     // TODO: Declare wireframe methods
 }

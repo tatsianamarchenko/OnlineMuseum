@@ -12,7 +12,7 @@ class ConfigureModulePresenter {
 
     // MARK: Properties
 
-    weak var view: ConfigureModuleView?
+     var view: ConfigureModuleView?
     var router: ConfigureModuleWireframe?
     var interactor: ConfigureModuleUseCase?
 }

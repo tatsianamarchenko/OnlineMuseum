@@ -8,19 +8,43 @@
 
 import Foundation
 
-class ApiService: ApiServiceProtocol {
-	func departments() -> [Department] {
-		var departments = [Department]()
-		return departments
+class ApiService {
+
+	enum Error: LocalizedError {
+		case invalidStatusCode
+		case emptyData
+		case requestError
 	}
 
-	func objects() -> [Objects] {
-		var objects = [Objects]()
-		return objects
-	}
 
-	func object() -> [Object] {
-		var object = [Object]()
-		return object
+	func fetch<T: Decodable> (urlString: String,
+							  completion: @escaping((Result<T, Error>) -> Void)) {
+
+		guard let url = URL(string: urlString) else {
+			print("Error: Invalid URL.")
+			return
+		}
+		let configuration = URLSessionConfiguration.default
+		configuration.timeoutIntervalForRequest = 30
+		let session = URLSession(configuration: configuration)
+		session.dataTask(with: url) { (data, _, error) in
+			if error != nil {
+				completion(.failure(.requestError))
+				return
+			}
+			guard let data = data else {
+				completion(.failure(.emptyData))
+				return
+			}
+			let decoder = JSONDecoder()
+			do {
+				let decodedData = try decoder.decode(T.self, from: data)
+				completion(.success(decodedData))
+
+			} catch {
+				print("Error: \(error.localizedDescription)")
+			}
+		}.resume()
 	}
 }
+

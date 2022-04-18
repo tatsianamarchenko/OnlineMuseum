@@ -9,7 +9,7 @@
 import Foundation
 
 protocol ApiServiceProtocol {
-    func departments() -> [Department]
+    func departments()
 	func objects() -> [Objects]
 	func object() -> [Object]
 }

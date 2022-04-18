@@ -11,7 +11,7 @@ import Foundation
 
 // MARK: View Output (Presenter -> View)
 protocol PresenterToViewChoosedObjectProtocol {
-   
+	func config(object: [String])
 }
 
 
@@ -21,6 +21,8 @@ protocol ViewToPresenterChoosedObjectProtocol {
     var view: PresenterToViewChoosedObjectProtocol? { get set }
     var interactor: PresenterToInteractorChoosedObjectProtocol? { get set }
     var router: PresenterToRouterChoosedObjectProtocol? { get set }
+
+	func fillView()
 }
 
 

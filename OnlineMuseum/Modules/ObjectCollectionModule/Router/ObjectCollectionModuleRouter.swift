@@ -18,7 +18,7 @@ class ObjectCollectionModuleRouter {
     // MARK: Static methods
 
     static func setupModule() -> ObjectCollectionModuleViewController {
-        let viewController = UIStoryboard.loadViewController() as ObjectCollectionModuleViewController
+        let viewController = ObjectCollectionModuleViewController()
         let presenter = ObjectCollectionModulePresenter()
         let router = ObjectCollectionModuleRouter()
         let interactor = ObjectCollectionModuleInteractor()

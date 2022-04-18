@@ -12,11 +12,11 @@ import UIKit
 class ChoosedObjectRouter: PresenterToRouterChoosedObjectProtocol {
     
     // MARK: Static methods
-    static func createModule() -> UIViewController {
+    static func createModule(object: Object) -> UIViewController {
         
         let viewController = ChoosedObjectViewController()
         
-        let presenter: ViewToPresenterChoosedObjectProtocol & InteractorToPresenterChoosedObjectProtocol = ChoosedObjectPresenter()
+        let presenter: ViewToPresenterChoosedObjectProtocol & InteractorToPresenterChoosedObjectProtocol = ChoosedObjectPresenter(object: object)
         
         viewController.presenter = presenter
         viewController.presenter?.router = ChoosedObjectRouter()

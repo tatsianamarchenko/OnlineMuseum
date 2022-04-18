@@ -12,7 +12,7 @@ class ConfigureModuleInteractor {
 
     // MARK: Properties
 
-    weak var output: ConfigureModuleInteractorOutput?
+     var output: ConfigureModuleInteractorOutput?
 }
 
 extension ConfigureModuleInteractor: ConfigureModuleUseCase {

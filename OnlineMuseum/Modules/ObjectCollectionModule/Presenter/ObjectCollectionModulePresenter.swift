@@ -12,7 +12,7 @@ class ObjectCollectionModulePresenter {
 
     // MARK: Properties
 
-    weak var view: ObjectCollectionModuleView?
+     var view: ObjectCollectionModuleView?
     var router: ObjectCollectionModuleWireframe?
     var interactor: ObjectCollectionModuleUseCase?
 }

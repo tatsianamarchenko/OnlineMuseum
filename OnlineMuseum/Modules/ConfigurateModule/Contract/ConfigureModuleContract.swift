@@ -8,22 +8,22 @@
 
 import Foundation
 
-protocol ConfigureModuleView: BaseView {
+protocol ConfigureModuleView {
     // TODO: Declare view methods
 }
 
-protocol ConfigureModulePresentation: class {
+protocol ConfigureModulePresentation {
     // TODO: Declare presentation methods
 }
 
-protocol ConfigureModuleUseCase: class {
+protocol ConfigureModuleUseCase {
     // TODO: Declare use case methods
 }
 
-protocol ConfigureModuleInteractorOutput: class {
+protocol ConfigureModuleInteractorOutput {
     // TODO: Declare interactor output methods
 }
 
-protocol ConfigureModuleWireframe: class {
+protocol ConfigureModuleWireframe {
     // TODO: Declare wireframe methods
 }

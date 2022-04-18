@@ -8,22 +8,22 @@
 
 import Foundation
 
-protocol ObjectCollectionModuleView: BaseView {
+protocol ObjectCollectionModuleView {
     // TODO: Declare view methods
 }
 
-protocol ObjectCollectionModulePresentation: class {
+protocol ObjectCollectionModulePresentation {
     // TODO: Declare presentation methods
 }
 
-protocol ObjectCollectionModuleUseCase: class {
+protocol ObjectCollectionModuleUseCase {
     // TODO: Declare use case methods
 }
 
-protocol ObjectCollectionModuleInteractorOutput: class {
+protocol ObjectCollectionModuleInteractorOutput {
     // TODO: Declare interactor output methods
 }
 
-protocol ObjectCollectionModuleWireframe: class {
+protocol ObjectCollectionModuleWireframe {
     // TODO: Declare wireframe methods
 }

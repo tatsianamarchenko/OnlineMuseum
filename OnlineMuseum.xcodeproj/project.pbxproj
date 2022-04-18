@@ -10,20 +10,52 @@
 		BF5048D2280A2F4A0009C29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5048D1280A2F4A0009C29B /* AppDelegate.swift */; };
 		BF5048D4280A2F4A0009C29B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5048D3280A2F4A0009C29B /* SceneDelegate.swift */; };
 		BF5048D6280A2F4A0009C29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5048D5280A2F4A0009C29B /* ViewController.swift */; };
-		BF5048D9280A2F4A0009C29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5048D7280A2F4A0009C29B /* Main.storyboard */; };
 		BF5048DB280A2F4C0009C29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5048DA280A2F4C0009C29B /* Assets.xcassets */; };
 		BF5048DE280A2F4C0009C29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5048DC280A2F4C0009C29B /* LaunchScreen.storyboard */; };
+		BF5048ED280A2FE20009C29B /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5048EA280A2FE20009C29B /* Department.swift */; };
+		BF5048EE280A2FE20009C29B /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5048EB280A2FE20009C29B /* Objects.swift */; };
+		BF5048EF280A2FE20009C29B /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5048EC280A2FE20009C29B /* Object.swift */; };
+		BF504952280A33420009C29B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50494D280A33420009C29B /* ApiService.swift */; };
+		BF504953280A33420009C29B /* ApiServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50494E280A33420009C29B /* ApiServiceProtocol.swift */; };
+		BF5049F2280A3BB30009C29B /* ObjectCollectionContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5049ED280A3BB30009C29B /* ObjectCollectionContract.swift */; };
+		BF5049F3280A3BB30009C29B /* ObjectCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5049EE280A3BB30009C29B /* ObjectCollectionPresenter.swift */; };
+		BF5049F4280A3BB30009C29B /* ObjectCollectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5049EF280A3BB30009C29B /* ObjectCollectionRouter.swift */; };
+		BF5049F5280A3BB30009C29B /* ObjectCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5049F0280A3BB30009C29B /* ObjectCollectionViewController.swift */; };
+		BF5049F6280A3BB30009C29B /* ObjectCollectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5049F1280A3BB30009C29B /* ObjectCollectionInteractor.swift */; };
+		BF504A06280A3BDD0009C29B /* ChoosedObjectContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF504A01280A3BDD0009C29B /* ChoosedObjectContract.swift */; };
+		BF504A07280A3BDD0009C29B /* ChoosedObjectPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF504A02280A3BDD0009C29B /* ChoosedObjectPresenter.swift */; };
+		BF504A08280A3BDD0009C29B /* ChoosedObjectRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF504A03280A3BDD0009C29B /* ChoosedObjectRouter.swift */; };
+		BF504A09280A3BDD0009C29B /* ChoosedObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF504A04280A3BDD0009C29B /* ChoosedObjectViewController.swift */; };
+		BF504A0A280A3BDD0009C29B /* ChoosedObjectInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF504A05280A3BDD0009C29B /* ChoosedObjectInteractor.swift */; };
+		F3B5B690B903E65A432CC2FA /* Pods_OnlineMuseum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F26130B1F8323B851C705F4 /* Pods_OnlineMuseum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F26130B1F8323B851C705F4 /* Pods_OnlineMuseum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnlineMuseum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5048CE280A2F4A0009C29B /* OnlineMuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineMuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5048D1280A2F4A0009C29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5048D3280A2F4A0009C29B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF5048D5280A2F4A0009C29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF5048D8280A2F4A0009C29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF5048DA280A2F4C0009C29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5048DD280A2F4C0009C29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5048DF280A2F4C0009C29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5048EA280A2FE20009C29B /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		BF5048EB280A2FE20009C29B /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		BF5048EC280A2FE20009C29B /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		BF50494D280A33420009C29B /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		BF50494E280A33420009C29B /* ApiServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceProtocol.swift; sourceTree = "<group>"; };
+		BF5049ED280A3BB30009C29B /* ObjectCollectionContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCollectionContract.swift; sourceTree = "<group>"; };
+		BF5049EE280A3BB30009C29B /* ObjectCollectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCollectionPresenter.swift; sourceTree = "<group>"; };
+		BF5049EF280A3BB30009C29B /* ObjectCollectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCollectionRouter.swift; sourceTree = "<group>"; };
+		BF5049F0280A3BB30009C29B /* ObjectCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCollectionViewController.swift; sourceTree = "<group>"; };
+		BF5049F1280A3BB30009C29B /* ObjectCollectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCollectionInteractor.swift; sourceTree = "<group>"; };
+		BF504A01280A3BDD0009C29B /* ChoosedObjectContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosedObjectContract.swift; sourceTree = "<group>"; };
+		BF504A02280A3BDD0009C29B /* ChoosedObjectPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosedObjectPresenter.swift; sourceTree = "<group>"; };
+		BF504A03280A3BDD0009C29B /* ChoosedObjectRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosedObjectRouter.swift; sourceTree = "<group>"; };
+		BF504A04280A3BDD0009C29B /* ChoosedObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosedObjectViewController.swift; sourceTree = "<group>"; };
+		BF504A05280A3BDD0009C29B /* ChoosedObjectInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosedObjectInteractor.swift; sourceTree = "<group>"; };
+		C9BFBAB5FAE6B97336714227 /* Pods-OnlineMuseum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineMuseum.debug.xcconfig"; path = "Target Support Files/Pods-OnlineMuseum/Pods-OnlineMuseum.debug.xcconfig"; sourceTree = "<group>"; };
+		F288CEEB3044A225E03F4322 /* Pods-OnlineMuseum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlineMuseum.release.xcconfig"; path = "Target Support Files/Pods-OnlineMuseum/Pods-OnlineMuseum.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B5B690B903E65A432CC2FA /* Pods_OnlineMuseum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BFAB30F4FDFD1DAB5714456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9BFBAB5FAE6B97336714227 /* Pods-OnlineMuseum.debug.xcconfig */,
+				F288CEEB3044A225E03F4322 /* Pods-OnlineMuseum.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B818C17816CD40F15DF9A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F26130B1F8323B851C705F4 /* Pods_OnlineMuseum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF5048C5280A2F4A0009C29B = {
 			isa = PBXGroup;
 			children = (
 				BF5048D0280A2F4A0009C29B /* OnlineMuseum */,
 				BF5048CF280A2F4A0009C29B /* Products */,
+				1BFAB30F4FDFD1DAB5714456 /* Pods */,
+				6B818C17816CD40F15DF9A97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +111,74 @@
 				BF5048D1280A2F4A0009C29B /* AppDelegate.swift */,
 				BF5048D3280A2F4A0009C29B /* SceneDelegate.swift */,
 				BF5048D5280A2F4A0009C29B /* ViewController.swift */,
-				BF5048D7280A2F4A0009C29B /* Main.storyboard */,
+				BF5048F3280A30630009C29B /* Modules */,
+				BF5048F0280A300B0009C29B /* Common */,
 				BF5048DA280A2F4C0009C29B /* Assets.xcassets */,
 				BF5048DC280A2F4C0009C29B /* LaunchScreen.storyboard */,
 				BF5048DF280A2F4C0009C29B /* Info.plist */,
 			);
 			path = OnlineMuseum;
+			sourceTree = "<group>";
+		};
+		BF5048E7280A2F970009C29B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				BF5048EA280A2FE20009C29B /* Department.swift */,
+				BF5048EC280A2FE20009C29B /* Object.swift */,
+				BF5048EB280A2FE20009C29B /* Objects.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		BF5048F0280A300B0009C29B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BF50494B280A33420009C29B /* Implementations */,
+				BF5048E7280A2F970009C29B /* Entities */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BF5048F3280A30630009C29B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BF50498B280A36380009C29B /* ObjectModule */,
+				BF50496A280A35E40009C29B /* ObjectCollectionModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BF50494B280A33420009C29B /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				BF50494D280A33420009C29B /* ApiService.swift */,
+				BF50494E280A33420009C29B /* ApiServiceProtocol.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		BF50496A280A35E40009C29B /* ObjectCollectionModule */ = {
+			isa = PBXGroup;
+			children = (
+				BF5049ED280A3BB30009C29B /* ObjectCollectionContract.swift */,
+				BF5049EE280A3BB30009C29B /* ObjectCollectionPresenter.swift */,
+				BF5049EF280A3BB30009C29B /* ObjectCollectionRouter.swift */,
+				BF5049F0280A3BB30009C29B /* ObjectCollectionViewController.swift */,
+				BF5049F1280A3BB30009C29B /* ObjectCollectionInteractor.swift */,
+			);
+			path = ObjectCollectionModule;
+			sourceTree = "<group>";
+		};
+		BF50498B280A36380009C29B /* ObjectModule */ = {
+			isa = PBXGroup;
+			children = (
+				BF504A01280A3BDD0009C29B /* ChoosedObjectContract.swift */,
+				BF504A02280A3BDD0009C29B /* ChoosedObjectPresenter.swift */,
+				BF504A03280A3BDD0009C29B /* ChoosedObjectRouter.swift */,
+				BF504A04280A3BDD0009C29B /* ChoosedObjectViewController.swift */,
+				BF504A05280A3BDD0009C29B /* ChoosedObjectInteractor.swift */,
+			);
+			path = ObjectModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF5048E2280A2F4C0009C29B /* Build configuration list for PBXNativeTarget "OnlineMuseum" */;
 			buildPhases = (
+				A706852CFF180882A2E08B13 /* [CP] Check Pods Manifest.lock */,
 				BF5048CA280A2F4A0009C29B /* Sources */,
 				BF5048CB280A2F4A0009C29B /* Frameworks */,
 				BF5048CC280A2F4A0009C29B /* Resources */,
+				0F30B65442D84C5DF86BECFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +243,82 @@
 			files = (
 				BF5048DE280A2F4C0009C29B /* LaunchScreen.storyboard in Resources */,
 				BF5048DB280A2F4C0009C29B /* Assets.xcassets in Resources */,
-				BF5048D9280A2F4A0009C29B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F30B65442D84C5DF86BECFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlineMuseum/Pods-OnlineMuseum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnlineMuseum/Pods-OnlineMuseum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnlineMuseum/Pods-OnlineMuseum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A706852CFF180882A2E08B13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnlineMuseum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF5048CA280A2F4A0009C29B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5049F2280A3BB30009C29B /* ObjectCollectionContract.swift in Sources */,
+				BF504A06280A3BDD0009C29B /* ChoosedObjectContract.swift in Sources */,
 				BF5048D6280A2F4A0009C29B /* ViewController.swift in Sources */,
+				BF5048ED280A2FE20009C29B /* Department.swift in Sources */,
+				BF5049F3280A3BB30009C29B /* ObjectCollectionPresenter.swift in Sources */,
+				BF5048EF280A2FE20009C29B /* Object.swift in Sources */,
+				BF504A0A280A3BDD0009C29B /* ChoosedObjectInteractor.swift in Sources */,
+				BF504952280A33420009C29B /* ApiService.swift in Sources */,
+				BF504953280A33420009C29B /* ApiServiceProtocol.swift in Sources */,
 				BF5048D2280A2F4A0009C29B /* AppDelegate.swift in Sources */,
+				BF5049F5280A3BB30009C29B /* ObjectCollectionViewController.swift in Sources */,
+				BF504A07280A3BDD0009C29B /* ChoosedObjectPresenter.swift in Sources */,
+				BF5048EE280A2FE20009C29B /* Objects.swift in Sources */,
+				BF504A08280A3BDD0009C29B /* ChoosedObjectRouter.swift in Sources */,
 				BF5048D4280A2F4A0009C29B /* SceneDelegate.swift in Sources */,
+				BF5049F6280A3BB30009C29B /* ObjectCollectionInteractor.swift in Sources */,
+				BF5049F4280A3BB30009C29B /* ObjectCollectionRouter.swift in Sources */,
+				BF504A09280A3BDD0009C29B /* ChoosedObjectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF5048D7280A2F4A0009C29B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF5048D8280A2F4A0009C29B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF5048DC280A2F4C0009C29B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +448,7 @@
 		};
 		BF5048E3280A2F4C0009C29B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9BFBAB5FAE6B97336714227 /* Pods-OnlineMuseum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +459,6 @@
 				INFOPLIST_FILE = OnlineMuseum/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +476,7 @@
 		};
 		BF5048E4280A2F4C0009C29B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F288CEEB3044A225E03F4322 /* Pods-OnlineMuseum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +487,6 @@
 				INFOPLIST_FILE = OnlineMuseum/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

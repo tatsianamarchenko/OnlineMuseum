@@ -12,7 +12,7 @@ class HomeModuleInteractor {
 
     // MARK: Properties
 
-    weak var output: HomeModuleInteractorOutput?
+     var output: HomeModuleInteractorOutput?
 }
 
 extension HomeModuleInteractor: HomeModuleUseCase {

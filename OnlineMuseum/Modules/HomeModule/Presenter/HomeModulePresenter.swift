@@ -12,7 +12,7 @@ class HomeModulePresenter {
 
     // MARK: Properties
 
-    weak var view: HomeModuleView?
+     var view: HomeModuleView?
     var router: HomeModuleWireframe?
     var interactor: HomeModuleUseCase?
 }

@@ -12,7 +12,7 @@ class ObjectCollectionModuleInteractor {
 
     // MARK: Properties
 
-    weak var output: ObjectCollectionModuleInteractorOutput?
+     var output: ObjectCollectionModuleInteractorOutput?
 }
 
 extension ObjectCollectionModuleInteractor: ObjectCollectionModuleUseCase {
